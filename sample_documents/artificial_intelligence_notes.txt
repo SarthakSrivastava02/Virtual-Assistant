@@ -1,0 +1,26 @@
+ARTIFICIAL INTELLIGENCE & MACHINE LEARNING (CS402) - STUDY GUIDE
+
+CHAPTER 1: SEARCH ALGORITHMS
+1. Uninformed Search (Blind Search):
+   - Breadth-First Search (BFS): Completeness guaranteed, optimal for unit step costs. Space complexity O(b^d).
+   - Depth-First Search (DFS): Space complexity O(bm), but not complete in infinite-depth spaces.
+2. Informed Search (Heuristic Search):
+   - Greedy Best-First Search: Expands the node that appears closest to goal based on heuristic h(n).
+   - A* Search: Evaluates nodes using f(n) = g(n) + h(n), where g(n) is actual cost from start to node n, and h(n) is estimated cost from n to goal.
+   - Admissibility: A heuristic h(n) is admissible if it never overestimates the true cost to reach the goal (h(n) <= h*(n)).
+   - Consistency (Monotonicity): h(n) <= c(n, a, n') + h(n'). If a heuristic is consistent, A* using graph-search is guaranteed to be optimal.
+
+CHAPTER 2: LARGE LANGUAGE MODELS & RAG
+- Transformer Architecture: Introduced by Vaswani et al. (2017). Replaces recurrence and convolutions with Multi-Head Self-Attention.
+- Self-Attention Equation:
+  Attention(Q, K, V) = softmax( (Q * K^T) / sqrt(d_k) ) * V
+- Retrieval-Augmented Generation (RAG):
+  Solves LLM hallucinations and knowledge obsolescence by coupling an information retrieval component (e.g. FAISS vector index with dense embeddings) with an LLM prompt.
+- Vector Embeddings: Dense floating point representations in semantic vector space (e.g., 384 or 1536 dimensions) where cosine similarity indicates semantic closeness.
+
+CHAPTER 3: MACHINE LEARNING ESSENTIALS
+- Supervised Learning: Linear Regression, Logistic Regression, Decision Trees, Random Forests, Support Vector Machines (SVM).
+- Loss Functions: Mean Squared Error (MSE) for regression; Binary Cross-Entropy for binary classification.
+- Overfitting vs Underfitting:
+  Overfitting: High variance, low bias (model memorizes training data). Remediated by regularization (L1 Lasso, L2 Ridge), dropout, and cross-validation.
+  Underfitting: High bias, low variance (model is too simple).
