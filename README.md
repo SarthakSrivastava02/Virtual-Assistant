@@ -1,11 +1,16 @@
 # AI-Powered Virtual Assistant Using Large Language Models (LLM) & RAG
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-SarthakSrivastava02%2FVirtual--Assistant-blue?logo=github)](https://github.com/SarthakSrivastava02/Virtual-Assistant)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688.svg)](https://fastapi.tiangolo.com/)
 [![React 18](https://img.shields.io/badge/React-18-61DAFB.svg)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC.svg)](https://tailwindcss.com/)
 [![FAISS](https://img.shields.io/badge/Vector%20DB-FAISS-orange.svg)](https://github.com/facebookresearch/faiss)
+[![PDF Report](https://img.shields.io/badge/Project%20Report-Download%20PDF-red.svg)](file:///Users/sarthaksrivastava/Desktop/Virtual%20Assistant/Project_Report_Virtual_Assistant.pdf)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+**Official GitHub Repository:** [https://github.com/SarthakSrivastava02/Virtual-Assistant](https://github.com/SarthakSrivastava02/Virtual-Assistant)  
+**Formal PDF Project Report:** [Project_Report_Virtual_Assistant.pdf](file:///Users/sarthaksrivastava/Desktop/Virtual%20Assistant/Project_Report_Virtual_Assistant.pdf)
 
 An advanced, full-stack, academic-grade conversational Virtual Assistant developed for **B.Tech Computer Science and Engineering** final-year / capstone project requirements.
 
@@ -422,14 +427,18 @@ Use these sample questions during your academic demonstration:
 
 ---
 
-## 👨‍💻 Academic Project Details
+## 👨‍💻 Project Details & Credits
 
-- **Project Title:** Building a Virtual Assistant Using Large Language Models (LLM) and Retrieval-Augmented Generation
+- **Project Title:** Building an Intelligent Virtual Assistant Using Large Language Models (LLM) and Retrieval-Augmented Generation (RAG)
+- **Author / Developer:** Sarthak Srivastava
 - **Target Degree:** B.Tech / B.E. in Computer Science and Engineering
-- **Domain:** Artificial Intelligence, Natural Language Processing, Full-Stack Web Development
+- **GitHub Repository:** [https://github.com/SarthakSrivastava02/Virtual-Assistant](https://github.com/SarthakSrivastava02/Virtual-Assistant)
+- **PDF Report File:** [`Project_Report_Virtual_Assistant.pdf`](file:///Users/sarthaksrivastava/Desktop/Virtual%20Assistant/Project_Report_Virtual_Assistant.pdf)
+- **Regenerate PDF Report:** Run `python3 generate_project_report_pdf.py` in root directory.
 
 ---
 
 ## 📄 License
 
 This project is licensed under the MIT License - open-source for academic, educational, and development purposes.
+
